@@ -21,7 +21,7 @@ class Person(object):
         """Initializae basic attributes
 
         Args:
-            birthday (date): the day of a person borns
+            birthday (date): the day of a person born
             age (int): the age of a person
             sex (str): male or female
             height (float): height in cm
@@ -33,7 +33,15 @@ class Person(object):
         self.height = height
         self.weight = weight
 
-    def calculate_age(self):
+    def calculate_age(self, s):
+        """
+
+        Args:
+            s:
+
+        Returns:
+
+        """
         pass
 
-    def 
+help(Person)
